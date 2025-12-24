@@ -3,17 +3,17 @@
 Python CGI を使って、Webの入出力と
 ファイル操作を構造化して実装したサンプルです。
 
-## 構成
+```text
 └── cgi-sample
     ├── cgi-bin
-    │   ├── data_store.py
-    │   ├── post_form.py
-    │   ├── search_form.py
-    │   └── test.py
+    │   ├── data_store.py      # データ保存処理
+    │   ├── post_form.py       # POSTフォーム処理
+    │   ├── search_form.py     # 検索フォーム処理
+    │   └── test.py            # 動作確認用
     ├── data
-    │   └── messages.txt
+    │   └── messages.txt       # 保存データ
     └── README.md
-
+```
 ## 実行方法
 $ python -m http.server 8080 --cgi
 
