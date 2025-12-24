@@ -17,6 +17,6 @@ Python CGI を使って、Webの入出力と
 ## 実行方法
 $ python -m http.server 8080 --cgi
 
-詳細は以下を参照してください。
+詳細は次のページを参照してください。
 https://qiita.com/isy-nishida/items/5602bd8997131b76ccaf
 Python CGI その3：単体テストという考え方
