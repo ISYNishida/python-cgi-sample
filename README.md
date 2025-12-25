@@ -5,6 +5,7 @@ Python CGI を使って、Webの入出力と
 
 ```text
 └── cgi-sample
+    ├── index.html
     ├── cgi-bin
     │   ├── data_store.py      # データ保存処理
     │   ├── post_form.py       # POSTフォーム処理
